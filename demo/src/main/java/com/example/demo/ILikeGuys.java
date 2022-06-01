@@ -38,6 +38,6 @@ public class ILikeGuys {
         WebElement lmfao = driver.findElement(new By.ByXPath("/html/body/div[1]/div[1]/main/div/div/div[3]/div[2]/div[3]/div[1]/div[3]/div/div/div[12]/div/a"));
         String link = lmfao.getAttribute("href");
         System.out.println("text: " + link);
-        lmfao.click();
+        
     }
 }
